@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Niramit:400,700,700i");
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0 auto;
+  background-color: #9795cf;
+  font-family: "Niramit", sans-serif; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 10px; }
+
+.jumbotron h1 {
+  padding-top: 15px;
+  text-decoration: underline; }
+.jumbotron .song-title {
+  padding-bottom: 20px;
+  font-style: italic; }
+
+.lyrics {
+  font-size: 18px; }
+  .lyrics .first-verse {
+    padding-top: 40px; }
+  .lyrics .third-verse {
+    padding-bottom: 40px; }
+
+/*# sourceMappingURL=style.css.map */

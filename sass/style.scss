@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Niramit:400,700,700i');
+
+$font: 'Niramit', sans-serif;
+$font-style: italic;
+$box-color: #fff;
+$body-color: #9795cf;
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background-color: $body-color;
+    font-family: $font;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: $box-color;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.jumbotron {
+    h1 {
+        padding-top: 15px;
+        text-decoration: underline;
+    }
+
+    .song-title {
+        padding-bottom: 20px;
+        font-style: $font-style;
+    }
+}
+
+.lyrics {
+    font-size: 18px;
+
+    .first-verse {
+        padding-top: 40px;
+    }
+    
+    .third-verse {
+        padding-bottom: 40px;
+    }
+}
