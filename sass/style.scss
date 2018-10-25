@@ -31,8 +31,13 @@ body {
         text-decoration: underline;
     }
 
+    .artist {
+        font-size: 20px;
+    }
+
     .song-title {
         padding-bottom: 20px;
+        font-size: 18px;
         font-style: $font-style;
     }
 }
@@ -40,11 +45,11 @@ body {
 .lyrics {
     font-size: 18px;
 
+    p:last-child {
+        padding-bottom: 40px;
+    }
+
     .first-verse {
         padding-top: 40px;
-    }
-    
-    .third-verse {
-        padding-bottom: 40px;
     }
 }
