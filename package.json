@@ -9,10 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "browser-sync": "^2.26.3"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "browser-sync": "^2.26.3"
     "autoprefixer-cli": "^1.0.0",
     "nu-html-checker": "^0.1.0"
   }
