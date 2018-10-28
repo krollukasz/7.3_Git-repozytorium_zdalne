@@ -77,5 +77,3 @@ typings/
 
 # Sass-cache directory
 .sass-cache
-
-node_modules/
