@@ -1,3 +1,6 @@
-autoprefixer-cli -o css/style.prefixed.css css/style.css 
-java ../7.3_Git-repozytorium_zdalne/*.html 
-java ../7.3_Git-repozytorium_zdalne --format text
+"scripts": {
+    "build": "npm run autoprefixer-cli -o css/style.prefixed.css css/style.css",
+    "test": "npm run node_modules/.bin/nu-html-checker",
+    "test": "nu-html-checker *.html",
+    "build": "npm run browser-sync css/.css
+}
