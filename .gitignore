@@ -74,4 +74,6 @@ typings/
 
 # FuseBox cache
 .fusebox/
- #.sass-cache
+
+#.sass-cache directory
+.sass-cache
