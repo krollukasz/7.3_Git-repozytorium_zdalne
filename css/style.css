@@ -1,57 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Niramit:400,700,700i");
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
-body {
-  margin: 0 auto;
-  background-color: #9795cf;
-  font-family: "Niramit", sans-serif;
-  color: red;
-}
+body { margin: 0 auto; background-color: #9795cf; font-family: "Niramit", sans-serif; color: red; }
 
-.test {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
+.test { display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
 
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  background-color: #fff;
-  text-align: center;
-  border-radius: 10px;
-  display: -ms-flexbox;
-  display: flex;
-}
+.container { width: 100%; max-width: 1200px; margin: 0 auto; background-color: #fff; text-align: center; border-radius: 10px; display: -ms-flexbox; display: flex; }
 
-.jumbotron h1 {
-  padding-top: 20px;
-  text-decoration: underline;
-}
+.jumbotron h1 { padding-top: 20px; text-decoration: underline; }
 
-.jumbotron .artist {
-  font-size: 22px;
-}
+.jumbotron .artist { font-size: 22px; }
 
-.jumbotron .song-title {
-  padding-bottom: 25px;
-  font-size: 20px;
-  font-style: italic;
-}
+.jumbotron .song-title { padding-bottom: 25px; font-size: 20px; font-style: italic; }
 
-.lyrics {
-  font-size: 18px;
-}
+.lyrics { font-size: 18px; }
 
-.lyrics p:last-child {
-  padding-bottom: 40px;
-}
+.lyrics p:last-child { padding-bottom: 40px; }
 
-.lyrics .first-verse {
-  padding-top: 40px;
-}
-/*# sourceMappingURL=style.css.map */
+.lyrics .first-verse { padding-top: 40px; }

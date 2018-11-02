@@ -17,22 +17,14 @@
     "build-dev:sass": "node-sass --output-style expanded --source-map true -o css sass",
 
     "watch": "npm-run-all build -s watch:*",
-    "watch:sassprefixer": "onchange sass/*.scss -- npm-run-all watch:sass watch:autoprefixer",
-    "watch:sass": "node-sass --output-style expanded --source-map true -o css sass",
-    "watch:autoprefixer": "autoprefixer-cli css/style.css",
+    "watch:sassprefixer": "onchange sass/*.scss -- npm-run-all build:sass build:autoprefixer",
 
     "watch:browser-sync": "browser-sync start --server --files 'css/*.css' '*.html'"
   },
   "keywords": [],
   "author": "",
   "browserslist": [
-    ">1%",
-    "last 5 versions",
-    "chrome 68",
-    "chrome 69",
-    "firefox 56",
-    "opera 48",
-    "safari 11"
+    "last 5 versions"
   ],
   "license": "ISC",
   "dependencies": {},
